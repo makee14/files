@@ -1,0 +1,33 @@
+# 1.5 Conceptual Framework — C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3
+> Source: `Sources/C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3.md` | Date: 2026-09-25 | Depth: standard
+> Verdict (Task 2): HIGHLY USABLE
+---
+### Task 1 — Bibliographic Classification
+- **Title**: SMART Vet: A Knowledge Management Platform Application for Enhancing Local Government Unit Veterinary Services
+- **Authors**: Kimberley P. Malicdem and Bernardo D. Lamadrid
+- **Year**: 2025
+- **Recency**: PASS (2016–2026)
+- **Outlet**: DMMMSU Research and Extension Journal, 9(1), 139–156
+- **DOI/URL**: [NOT FOUND]
+- **Setting**: Local (Philippines) + "The research was conducted at the City Veterinarian Office of San Fernando, La Union, Philippines" (Materials and Methods, para. 1)
+- **Design**: DSR Artifact (developmental application build with mixed quantitative usability evaluation and qualitative acceptability assessment)
+- **APA7**: Malicdem, K. P., & Lamadrid, B. D. (2025). SMART Vet: A knowledge management platform application for enhancing local government unit veterinary services. *DMMMSU Research and Extension Journal, 9*(1), 139–156. [MISSING: DOI/URL]
+- **Fit**: Supplies a Philippine LGU input baseline, an ISO/IEC 25010 evaluation frame, multi-role access, an integrated service-to-message workflow, and measurable usability outputs for the CarePaws IPO arrows.
+
+### Task 2 — Verdict
+- **Verdict**: HIGHLY USABLE (4 mechanisms, 5 slots)
+- **Bullets**:
+  - Why + recency: PASS (2025); the developmental platform evaluation combines a 30-person usability sample, a 9-veterinarian acceptability group, ISO/IEC 25010 measurements, and explicit role-based access.
+  - Slots populated → Features: [Input-ISO25010-Standards] → Features 1–7; [Input-Clinic-Baselines] → Features 1, 2, 4; [Process-RBAC-Engineering] → Features 1, 2, 4; [Process-Inside-The-Arrows-Causal-Logic] → Features 1, 2, 4; [Output-Empirical-Usability-Baseline] → Features 1–7.
+  - Missing: [Process-Agile-DSR-Cycles] because the source states Waterfall rather than Agile/DSR cycles; it does not report a CarePaws permission matrix, causal effect estimates, SD/SE, or operational latency and availability metrics.
+  - Panel use: deflects the challenge that a Philippine LGU implementation cannot connect appointment, animal-health, communication, and administrative processes to measurable ISO quality outputs.
+  - Caveat: the source concerns a public LGU office rather than PetCare's private single clinic, and it includes mapping, impound, and adoption capabilities outside the locked envelope; transfer only the permitted mechanisms.
+
+### Task 3 — Extraction Bank
+| # | Slot | Finding (mechanism + noun) | Condition (n, setting, baseline) | Quote ≤60w + Locator | Metric or [NOT STATED] | Use in TARGET |
+|---|---|---|---|---|---|---|
+| 1 | Conceptual Framework-Input-ISO25010-Standards | Eight ISO/IEC 25010 quality dimensions operationalize the evaluation input | SMART Vet evaluation, n=30, six stakeholder categories with five participants each, San Fernando, La Union | "The ISO/IEC 25010 Product Quality Model served as the theoretical framework for usability evaluation, assessing eight critical software quality characteristics: functional suitability, performance efficiency, compatibility, usability, reliability, security, maintainability, and portability." (Malicdem & Lamadrid 2025, Materials and Methods, para. 1) | 8 characteristics; n=30; 5-point Likert scale / [NOT STATED: SD, reliability] | [CORROBORATION] CarePaws will use ISO/IEC 25010 quality characteristics as its evaluation input [Features 1–7] |
+| 2 | Conceptual Framework-Process-Inside-The-Arrows-Causal-Logic | Integrated registration → scheduling → health/animal profiles → messaging → administrative control forms an operational service chain | SMART Vet web/mobile platform, City Veterinarian Office baseline, resource-limited LGU setting, n [NOT STATED] | "the platform addresses the unique challenges of resource-limited settings by providing comprehensive functionality through an integrated web based and mobile platform that includes client registration with PRC ID verification for veterinarians, appointment scheduling with automated reminders, animal profile management with health monitoring, impounded animal tracking with adoption features, real-time messaging between clients and veterinary staff, and centralized administrative control" (Malicdem & Lamadrid 2025, Introduction, para. 7) | Web/mobile integration; appointment reminders; animal profiles; real-time messaging / [NOT STATED: latency, adoption rate] | [CORROBORATION] CarePaws will connect registration, scheduling, health-record, and communication steps inside its service arrow [Features 1, 2, 4] |
+| 3 | Conceptual Framework-Process-RBAC-Engineering | Role-based access separates administrators, veterinarians, and non-veterinarian clients, with license verification and authentication | SMART Vet multi-user web/mobile platform, n=30 usability respondents, San Fernando LGU setting | "sophisticated user management systems incorporating role-based access for administrators, veterinarians, and non-veterinarian clients, PRC license verification for veterinarian registration, and secure authentication processes" (Malicdem & Lamadrid 2025, Results and Discussion, para. 1) | 3 role classes; PRC license verification; n=30 / [NOT STATED: permission matrix] | [CORROBORATION] CarePaws will gate registration, clinical, appointment, and communication actions by authorized role [Features 1, 2, 4] |
+| 4 | Conceptual Framework-Output-Empirical-Usability-Baseline | ISO/IEC 25010 dimension-level means provide a measurable usability output | SMART Vet pilot, n=30 across six stakeholder categories, 5-point Likert scale, San Fernando, La Union | "The comprehensive usability evaluation demonstrated exceptional performance across all assessed quality characteristics, achieving an overall mean rating of 4.49 corresponding to an \"Excellent\" rating and \"Very Highly Usable\" interpretation according to established evaluation standards." (Malicdem & Lamadrid 2025, Results and Discussion, para. 1; Table 1) | Overall 4.49/5; Functional Suitability 4.50; Performance Efficiency 4.59; Compatibility 4.40; Usability 4.43; Reliability 4.38; Security 4.43; Maintainability 4.51; Portability 4.67; n=30 / [NOT STATED: SD, inferential tests] | [CORROBORATION] CarePaws will report ISO/IEC 25010 dimension-level output means with n and scale bounds [Features 1–7] |
+Excluded: [2] candidates omitted (broader public-health/SDG and LGU-wide implementation claims lacked IPO mechanisms; mapping, impound, and adoption features were quarantined outside Features 1–7).

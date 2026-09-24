@@ -1,25 +1,34 @@
 # STATUS — 1.9.2 Related Studies
-> Extractor: `research_assistant_SECTION_EXTRACTOR_v7.md` | Depth default: standard | Updated: 2026-09-24
+> Extractor: `research_assistant_SECTION_EXTRACTOR_v7.md` | Depth default: standard | Updated: 2026-09-25
 
 ## Queue (source order — alphabetical)
 - [x] DONE — `0_1_Introduction.md` — NOT USABLE
-- [x] DONE — `1-s2.0-S3051308126000021-main.md` — PARTIALLY USABLE
 - [x] DONE — `1236-1251.md` — HIGHLY USABLE
-- [x] DONE — `15189-Article Text-39763-2-10-20260328.md` — HIGHLY USABLE
 - [x] DONE — `15_beyer.k-chomiak-orsa.i-pietrzykowski.z.md` — PARTIALLY USABLE
+- [x] DONE — `15189-Article Text-39763-2-10-20260328.md` — HIGHLY USABLE
+- [x] DONE — `169-175.docx` — HIGHLY USABLE
+- [x] DONE — `1-s2.0-S3051308126000021-main.md` — PARTIALLY USABLE
+- [x] DONE — `3305160.3305164.md` — HIGHLY USABLE
+- [x] DONE — `450-462.docx` — HIGHLY USABLE
+- [x] DONE — `776.md` — PARTIALLY USABLE
+- [x] DONE — `C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3.md` — HIGHLY USABLE
+- [x] DONE — `dataprivacy.md` — NOT USABLE
+- [x] DONE — `javma-javma.245.3.324.docx` — NOT USABLE
 - [x] DONE — `MG_2026_EurSafe26.md` — NOT USABLE
 - [x] DONE — `Nablus-Vet-Care-Report.md` — HIGHLY USABLE
+- [x] DONE — `PDG_Practical_Compliance_Guide.docx` — NOT USABLE
+- [x] DONE — `s12917-016-0861-y.docx` — HIGHLY USABLE
 - [x] DONE — `s13620-018-0123-3.md` — PARTIALLY USABLE
+- [x] DONE — `s44356-025-00043-2.docx` — NOT USABLE
 - [x] DONE — `The_DeLone_and_McLean_Model_of_Information_Systems.md` — NOT USABLE
 - [x] DONE — `VenkateshThongXu-JAIS2016-OpenAccess (1).md` — NOT USABLE
-- [x] DONE — `vol10-iss6-pg4336-4346-202606_pdf.md` — HIGHLY USABLE
-- [x] DONE — `3305160.3305164.md` — HIGHLY USABLE
-- [x] DONE — `776.md` — PARTIALLY USABLE
 - [x] DONE — `VetBot.md` — HIGHLY USABLE
+- [ ] TODO — `Veterinary Clinical Pathol - 2025 - Neal - Artificial Intelligence in Veterinary Clinical Pathology An Introduction and.docx`
+- [x] DONE — `vol10-iss6-pg4336-4346-202606_pdf.md` — HIGHLY USABLE
 - [x] DONE — `WSN-211-2026-132-151.md` — HIGHLY USABLE
 
 ## Progress
-- Done: 15 / 15 | Highly: 7 | Partially: 4 | Not Usable: 4
+- Done: 23 / 24 | Highly: 11 | Partially: 4 | Not Usable: 8
 
 ## Results Log (one row per completed source — from Task 2)
 | Source | Verdict | Slots populated | Features mapped |
@@ -29,6 +38,7 @@
 | 1236-1251.md | HIGHLY USABLE | Architecture ×2, Metric-Outcomes, Arch-Flaws | Features 1, 2, 6 |
 | 15189-Article Text-39763-2-10-20260328.md | HIGHLY USABLE | Architecture, Metric-Outcomes ×2, Connectivity | Features 1, 2, 4 |
 | 15_beyer.k-chomiak-orsa.i-pietrzykowski.z.md | PARTIALLY USABLE | Metric-Outcomes, Architecture | Features 1, 2, 4 |
+| 169-175.docx | HIGHLY USABLE | Architecture ×2, Metric-Outcomes, Arch-Flaws | Features 1, 2, 3, 4 |
 | MG_2026_EurSafe26.md | NOT USABLE | none (ethics deliberation → 1.9.1/1.9.3) | — |
 | Nablus-Vet-Care-Report.md | HIGHLY USABLE | Architecture ×2, Connectivity, Arch-Flaws | Features 1, 2, 4, 6 |
 | s13620-018-0123-3.md | PARTIALLY USABLE | Metric-Outcomes (demand context) | Feature 7 |
@@ -39,12 +49,24 @@
 | 776.md | PARTIALLY USABLE | Architecture, Metric-Outcomes, Arch-Flaws (design-only, no build) | Features 1, 4 |
 | VetBot.md | HIGHLY USABLE | Architecture, Metric-Outcomes ×2, Arch-Flaws | Features 1, 2, 4 |
 | WSN-211-2026-132-151.md | HIGHLY USABLE | Architecture ×2, Metric-Outcomes, Arch-Flaws | Features 1, 2, 4 |
+| 450-462.docx | HIGHLY USABLE | Empirical-System-Architecture, Connectivity-Assumptions, Quantitative-Metric-Outcomes, Acknowledged-Architectural-Flaws | Features 1, 2, 3, 6 |
+| C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3.md | HIGHLY USABLE | Empirical-System-Architecture, Connectivity-Assumptions, Quantitative-Metric-Outcomes, Acknowledged-Architectural-Flaws | Features 1, 2, 4, 6 |
+| dataprivacy.md | NOT USABLE | none (pre-2016 statute; → 1.9.1/2.5) | — |
+| javma-javma.245.3.324.docx | NOT USABLE | none (pre-2016 adoption survey; → 1.9.1/1.3) | — |
+| PDG_Practical_Compliance_Guide.docx | NOT USABLE | none (practice guide; → 2.3/2.5/1.9.1) | — |
+| s12917-016-0861-y.docx | HIGHLY USABLE | Empirical-System-Architecture, Connectivity-Assumptions, Quantitative-Metric-Outcomes, Acknowledged-Architectural-Flaws | Features 1, 2 |
+| s44356-025-00043-2.docx | NOT USABLE | none (2025 narrative framework; → 1.9.1/2.3/2.5) | — |
 
 ## Cross-source comparison
-- Seven empirical builds now converge: Morales (three-tier + n=32 ISO), VetCareSys (web modules + n=16 Excellent means), EliteVet (PHP/MySQL + 69 Pass cases), Nablus (React/Node/PostgreSQL + JWT/RBAC), FurrySmart/Buot (Spiral MIS + PowerBI segmentation + n=45 total 4.3, Quezon City), VetBot (Flutter/Django/PostgreSQL/ChromaDB/Gemini 3 Flash + N=99 RAGAS + 9-vet 4.56 + 32-owner SUS 79.61, La Union), Care-for-Paws/Ganiron (web + mobile + NFC + N=60 FURPS web 4.72/mobile 4.71, Manila). No conflicts; all agree paper/walk-in baselines fail on retrieval/scheduling. Vetconnect/De Guzman (n=50 requirements means, design-only) corroborates demand without a build. Tukur (78.3% manual, n=152) and Beyer (30% queue waits, n=102) corroborate the baseline problem without builds. Giersberg (n=21 deliberation) and the three theory texts contribute nothing. Gap update: [Connectivity-Assumptions] now has VetBot (online-LLM) and Ganiron (NFC-compatible) witnesses plus prior VetCareSys/Nablus rows; [Hardware-Offline-Fallbacks] remains empty everywhere (Ganiron explicitly defers beyond NFC; VetBot has no offline path). No SUS outside VetBot; no latency-ms in any source.
+
+- _Pending until all 24 current inbox sources are judged._
 
 ## Section Verdict
-- COMPLETE — 15 of 15 judged; 11 usable sources (7 highly, 4 partially) with 39 grounded rows; ready for drafting 1.9.2 from the seven builds, with Vetconnect/Tukur/Beyer/Golden as contrast witnesses.
+- IN PROGRESS — 23 of 24 judged; 15 usable sources (11 highly, 4 partially); 1 source remains.
 
 ## Next up
-- None — queue empty for current inbox. Files added later become TODO on the next run.
+- NEXT SECTION: 1.9.2 Related Studies | NEXT SOURCE: `Veterinary Clinical Pathol - 2025 - Neal - Artificial Intelligence in Veterinary Clinical Pathology An Introduction and.docx`
+- Starter for new session (copy-paste):
+```text
+Read C:\Users\Administrator\Desktop\RESEARCH-OUTPUT\00_SECTION_EXTRACTION_ORCHESTRATOR_PROMPT.md, then extractor v7, then do single job: TARGET 1.9.2 Related Studies × SOURCE C:\Users\Administrator\Desktop\RESEARCH-OUTPUT\Sources\Veterinary Clinical Pathol - 2025 - Neal - Artificial Intelligence in Veterinary Clinical Pathology An Introduction and.docx. Standard Tasks 1–3. Read only that full source, create the exact card, fresh-reconcile/update only _STATUS_1.9.2.md, validate, and stop.
+```

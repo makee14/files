@@ -1,0 +1,33 @@
+# 2.2 Software Development Methodology — C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3
+> Source: `Sources/C-MALICDEM,+KIMBERLEY+P_Research+Article+Revised+3.md` | Date: 2026-09-25 | Depth: standard
+> Verdict (Task 2): PARTIALLY USABLE
+---
+### Task 1 — Bibliographic Classification
+- **Title**: SMART Vet: A Knowledge Management Platform Application for Enhancing Local Government Unit Veterinary Services
+- **Authors**: Kimberley P. Malicdem and Bernardo D. Lamadrid
+- **Year**: 2025
+- **Recency**: PASS (2016–2026)
+- **Outlet**: DMMMSU Research and Extension Journal, 9(1), 139–156
+- **DOI/URL**: [NOT FOUND]
+- **Setting**: Local (Philippines) + proof quote: "The research was conducted at the City Veterinarian Office of San Fernando, La Union, Philippines, following formal ethical approval and administrative clearance from the City Mayor's office." (Malicdem & Lamadrid 2025, Materials and Methods, para. 2)
+- **Design**: DSR Artifact (mixed-method developmental and descriptive artifact evaluation)
+- **APA7**: Malicdem, K. P., & Lamadrid, B. D. (2025). SMART Vet: A knowledge management platform application for enhancing local government unit veterinary services. *DMMMSU Research and Extension Journal, 9*(1), 139–156. [MISSING: DOI/URL]
+- **Fit**: The article documents a five-phase Waterfall sequence, requirements specifications, design artifacts, and a verification gate, but it does not establish Scrum cadence or per-sprint deliverables.
+
+### Task 2 — Verdict
+- **Verdict**: PARTIALLY USABLE (4 mechanisms, 1 slot)
+- **Bullets (3–5)**:
+  - Why this verdict + recency status: PASS (2025); the source names four development mechanisms within one target slot, but it uses Waterfall rather than Scrum and supplies no sprint structure.
+  - Slots populated → Features 1–7 mapping: [Artifact-Progression-Matrix-Deliverable] → Features 1, 2, and 4; no other target slot is evidenced.
+  - Missing slots / metrics this source cannot cover: [Scrum-Sprint-Cadence] and all four [Sprint-Deliverables] remain absent; no 2–4-week cadence, backlog, phase duration, sprint assignment, or sprint review metric is stated.
+  - Panel use (what attack this citation deflects): Deflects "the veterinary-system build leaves its SDLC undocumented" by naming Waterfall and five ordered phases, while showing why an explicit Agile/Scrum contrast is necessary.
+  - Transfer risk / caveat: Waterfall is not Scrum; transfer only the reviewable artifact-progression mechanism and do not relabel Waterfall phases as CarePaws sprints.
+
+### Task 3 — Extraction Bank
+| # | Slot | Finding (mechanism + noun) | Condition (n, setting, baseline) | Quote ≤60w + Locator | Metric or [NOT STATED] | Use in TARGET |
+|---|---|---|---|---|---|---|
+| 1 | Software Development Methodology-Artifact-Progression-Matrix-Deliverable | Five sequential Waterfall phases fixed the veterinary platform's development order from requirements through deployment | SMART Vet, City Veterinarian Office of San Fernando, La Union; Waterfall baseline; no sprint structure | "The SMART Vet knowledge management platform application represents a comprehensive digital transformation initiative for veterinary service delivery in the Philippines, developed using the Waterfall Model methodology through a systematic five-phase approach [...] encompassing requirements gathering, design, implementation, verification, and deployment." (Malicdem & Lamadrid 2025, Results and Discussion, paras. 1–2) | 5 phases / [NOT STATED: phase durations] | [DEPARTURE] CarePaws will contrast its ordered Agile/Scrum artifact progression with this five-phase Waterfall baseline [Features 1, 2] |
+| 2 | Software Development Methodology-Artifact-Progression-Matrix-Deliverable | Stakeholder consultation and process observation were converted into requirement specifications before design | SMART Vet requirements phase; LGU veterinarians, private practitioners, and service users consulted; sample not stated | "The Requirements Gathering phase involved extensive stakeholder consultations with LGU veterinarians, private veterinary practitioners, and service users to identify functional and non-functional requirements. [...] Through structured interviews and observational studies of existing manual processes, the research team documented user needs, system constraints, and integration requirements with existing LGU workflows. [...] This phase resulted in comprehensive requirement specifications" (Malicdem & Lamadrid 2025, Materials and Methods, para. 3) | [NOT STATED: requirement count] | [CORROBORATION] CarePaws will convert stakeholder and workflow evidence into reviewable requirement specifications before implementing scheduling [Feature 1] |
+| 3 | Software Development Methodology-Artifact-Progression-Matrix-Deliverable | Design phase produced technical specifications, interface mockups, architecture, and database schemas | SMART Vet design phase after requirements; Philippine LGU resource and security conditions | "The Design phase translated requirements into technical specifications and user interface mockups, employing user-centered design principles to ensure accessibility across diverse user groups with varying technological expertise. [...] System architecture was designed to accommodate future scalability [...] Database schemas were developed to ensure data integrity and security while facilitating efficient information retrieval and reporting capabilities." (Malicdem & Lamadrid 2025, Materials and Methods, para. 4) | 4 named artifact classes / [NOT STATED: review count] | [CORROBORATION] CarePaws will place technical, interface, architecture, and data specifications under review before health-record implementation [Feature 2] |
+| 4 | Software Development Methodology-Artifact-Progression-Matrix-Deliverable | Verification combined four testing activities before system refinement | SMART Vet verification phase; selected LGU staff and community members; beta-test n not stated | "The Verification and Testing phase involved comprehensive quality assurance protocols including unit testing, integration testing, and user acceptance testing with representative stakeholder groups. Beta testing was conducted with selected LGU staff and community members to identify usability issues and gather preliminary feedback for system refinement." (Malicdem & Lamadrid 2025, Materials and Methods, para. 5) | 4 named testing activities / [NOT STATED: beta-test n, defect count] | [CORROBORATION] CarePaws will require unit, integration, user-acceptance, and beta evidence before communication features advance [Feature 4] |
+Excluded: [5] candidates omitted (no mechanism / no quote / FAIL recency).
